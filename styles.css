@@ -1,0 +1,263 @@
+@charset "utf-8";
+body {
+    background-image: url(images/back.jpg);
+    background-position: left 0%;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+}
+.left h1 {
+    color: #796EFF;
+    margin-top: 224px;
+    margin-left: 10%;
+    font-size: 51px;
+    font-weight: normal;
+    line-height: 1;
+    margin-right: 10%;
+}
+.cuebook {
+    font-size: 60px;
+}
+
+
+.left {
+    width: 54%;
+    height: auto;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.container {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 88%;
+    margin-top: 36px;
+}
+.login-box {
+    height: 500px;
+    background-color: rgba(255,255,255,1.00);
+    border-radius: 10px;
+    margin-top: 45px;
+    -webkit-box-shadow: 0.2px 0.2px 25px 0 rgba(175,174,174,1.00);
+    box-shadow: 0.2px 0.2px 25px 0 rgba(175,174,174,1.00);
+    width: 400px;
+}
+.right {
+    width: 40%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login-box div h2 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 3.5;
+}
+.remember   {
+    margin-bottom: 32px;
+    margin-top: -10px;
+}
+
+.container2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.google {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    height: 35px;
+    border-width: 0;
+    -webkit-box-shadow: 0.5px 0.5px 5px #D3D3D3;
+    box-shadow: 0.5px 0.5px 5px #D3D3D3;
+    background-color: #FFFFFF;
+
+
+}
+.google:hover {
+    -webkit-box-shadow: 0 0px;
+    box-shadow: 0 0px;
+    border: 0.5px solid #796EFF;
+
+}
+
+.login {
+    background-color: #796EFF;
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-width: 0;
+}
+.login:hover {
+    border: 1px solid #796EFF;
+    background-color: #FFFFFF;
+    text-shadow: 0px 0px;
+    color: #796EFF;
+}
+
+
+.or {
+    margin-bottom: 20px;
+}
+
+
+
+.container2 .google img {
+    float: left;
+    margin-right: -66px;
+
+
+}
+.forgot a {
+    text-decoration: none;
+    font-variant: normal;
+}
+.forgot a:hover {
+    color: #000000;
+}
+
+
+.container2 .google div {
+    margin-top: 9px;
+    font-weight: normal;
+}
+
+
+.container2 div hr {
+    width: 35%;
+    display: inline-block;
+    border-width: 0;
+    height: 1px;
+    background-color: #000000;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+.box {
+    display: block;
+    width: 98%;
+    margin-bottom: 14px;
+    height: 30px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: 2px solid #796EFF;
+    border-top-width: 0;
+    background-color: #F8F8F8;
+    margin-left: 2px;
+}
+
+.label {
+    margin-bottom: 2px;
+    margin-left: 2px;
+    font-size: 15px;
+    color: #535252;
+    font-weight: normal;
+}
+.remember-text {
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+
+.forgot {
+    text-align: center;
+    text-decoration: none;
+}
+.orr {
+    display: inline;
+    padding-top: 0px;
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -2px;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    margin-top: 4px;
+    margin-right: -2px;
+}
+
+@media (min-width:541px) and (max-width:950px){
+.left {
+    display: inline;
+    float: none;
+}
+.right {
+    display: block;
+    float: left;
+    margin-left: 4%;
+    margin-right: auto;
+    width: 90%;
+}
+.left h1 {
+    margin-top: -30px;
+    margin-right: -40px;
+    margin-bottom: -14px;
+    margin-left: -6%;
+    text-align: center;
+    font-size: 35px;
+}
+.cuebook {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.break {
+    display: none;
+}
+.login-box {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 41px;
+}
+
+}
+
+@media (max-width: 540px){
+	
+	.left {
+    display: inline;
+    float: none;
+}
+.right {
+    display: block;
+    float: left;
+    margin-left: 4%;
+    margin-right: auto;
+    width: 90%;
+}
+.left h1 {
+    margin-top: -30px;
+    margin-right: -40px;
+    margin-bottom: -14px;
+    margin-left: -6%;
+    text-align: center;
+    font-size: 35px;
+}
+.cuebook {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.break {
+    display: none;
+}
+.login-box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-bottom: 34px;
+}
+.login-box div h2 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 3;
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+.forgot {
+    margin-bottom: 15px;
+    margin-top: -7px;
+}
+
+
+}
