@@ -2,7 +2,7 @@
 body {
     background-image: url(images/back.jpg);
     background-position: left 0%;
-    background-size: auto auto;
+    background-size: cover cover;
     background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
 }
@@ -139,6 +139,7 @@ body {
     width: 98%;
     margin-bottom: 14px;
     height: 30px;
+    padding: 10px;
     border-left-width: 0;
     border-right-width: 0;
     border-bottom: 2px solid #796EFF;
