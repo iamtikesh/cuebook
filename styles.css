@@ -35,10 +35,11 @@ body {
     margin-top: 36px;
 }
 .login-box {
-    height: 500px;
+    height: 530px;
     background-color: rgba(255,255,255,1.00);
     border-radius: 10px;
-    margin-top: 45px;
+    margin-top: 50px;
+    padding: 30px;
     -webkit-box-shadow: 0.2px 0.2px 25px 0 rgba(175,174,174,1.00);
     box-shadow: 0.2px 0.2px 25px 0 rgba(175,174,174,1.00);
     width: 400px;
