@@ -2,7 +2,7 @@
 body {
     background-image: url(images/back.jpg);
     background-position: left 0%;
-    background-size: cover cover;
+    background-size: cover;
     background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
 }
